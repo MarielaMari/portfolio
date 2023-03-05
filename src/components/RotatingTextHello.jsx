@@ -1,5 +1,5 @@
 import React from "react";
-import RotatingText from "./components/RotatingText.jsx";
+import { RotatingText } from "rotating-text";
 import "rotating-text/dist/index.css";
 
 const RotatingTextHello = () => (
