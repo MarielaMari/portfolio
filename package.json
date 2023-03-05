@@ -20,6 +20,7 @@
     "rotating-text": "^1.0.4",
     "styled-components": "^5.3.8",
     "three": "^0.150.1",
-    "vanta": "^0.5.24"
+    "vanta": "^0.5.24",
+    "websocket": "^1.0.34"
   }
 }
