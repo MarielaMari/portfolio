@@ -26,7 +26,7 @@ export default function GlobeBackground() {
       );
     }
     return () => {
-      if (vantaEffect) vantaEffect.destroys();
+      if (vantaEffect) vantaEffect.destroy();
     };
   }, [vantaEffect]);
 

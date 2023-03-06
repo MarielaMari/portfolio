@@ -27,7 +27,7 @@ export default function HaloBackground() {
       );
     }
     return () => {
-      if (vantaEffect) vantaEffect.destroys();
+      if (vantaEffect) vantaEffect.destroy();
     };
   }, [vantaEffect]);
 
