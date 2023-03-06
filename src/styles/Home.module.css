@@ -72,9 +72,6 @@
   margin-bottom: 2rem;
 }
 
-/* .myProjects p {
-  margin: 1rem 0;
-} */
 
 /* Styles for the HaloBackground component */
 
@@ -84,9 +81,6 @@
   height: 100vh;
   background: rgba(255, 255, 255, 0.1);
   z-index: -5;
-  /* top: 0; */
-  /* left: 0; */
-  /* bottom: 0; */
 }
 /*  ----------Background of the second section #Globe Vanta.js----------  */
 .vantaHaloContainer {
@@ -96,17 +90,6 @@
   top: 0;
   box-sizing: border-box;
 }
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2px;
-  z-index: 2;
-  justify-content: space-evenly;
-}
-
-/* * {
-  box-sizing: border-box;
-} */
 
 .body {
   /* background-color: #cc7575; */
@@ -125,16 +108,11 @@
   z-index: 1;
 }
 
-/* .h1 {
-  font-size: 50px;
-  word-break: break-all;
-} */
-
 .row {
-  margin: 500px 50px;
+  margin: 515px 50px;
 }
 
-/* Add padding BETWEEN each column (if you want) */
+/* padding BETWEEN each column */
 .row,
 .row > .column {
   padding: 8px;
