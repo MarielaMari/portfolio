@@ -1,7 +1,7 @@
 import React from "react";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import RotatingTextHello from "@/components/RotatingTextHello";
+// import RotatingTextHello from "@/components/RotatingTextHello";
 import Footer from "@/components/Footer";
 import GlobeBackground from "@/components/GlobeBackground";
 import Image from "next/image";
