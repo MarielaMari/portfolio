@@ -16,9 +16,17 @@ export default function Home() {
         <div className={styles.globe}>
           <GlobeBackground />
         </div>
-        <div>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            height: "100vh",
+          }}
+        >
           <RotatingTextHello />
         </div>
+
         <div>
           <p className={styles.aboutMe}>
             <br /> <br /> Full Stack Developer,
