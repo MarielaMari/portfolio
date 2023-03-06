@@ -16,9 +16,9 @@ export default function Home() {
         <div className={styles.globe}>
           <GlobeBackground />
         </div>
-        <section className={styles.myName}>
+        <div className={styles.myName}>
           <RotatingTextHello />
-        </section>
+        </div>
         <p className={styles.aboutMe}>
           <br /> <br /> Full Stack Developer,
           <br />
