@@ -16,12 +16,10 @@ export default function Home() {
         <div className={styles.globe}>
           <GlobeBackground />
         </div>
-        {/* <div className={styles.myName}>
-          <RotatingTextHello />
-        </div> */}
         <div>
           <RotatingTextHello />
-          <br></br>
+        </div>
+        <div>
           <p className={styles.aboutMe}>
             <br /> <br /> Full Stack Developer,
             <br />
