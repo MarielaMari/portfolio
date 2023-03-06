@@ -35,7 +35,10 @@ export default function Home() {
                     height={956}
                     priority
                   />
+                  <br></br>
+                  <br></br>
                   <h2>lugo Femina</h2>
+                  <br></br>
                   <div className={styles.contentText}>
                     <strong>Platforms: </strong>
                     <ul>
@@ -59,7 +62,7 @@ export default function Home() {
                         responsibility
                       </li>
                     </ul>
-                    {/* <br></br> */}
+                    <br></br>
                     <strong>Technologies Used: </strong>
                     <br></br>
                     JavaScript, ReactJS, NodeJS, ExpressJS, Git, MongoDB,
@@ -78,7 +81,10 @@ export default function Home() {
                   height={956}
                   priority
                 />
+                <br></br>
+                <br></br>
                 <h2>Safety Hazards</h2>
+                <br></br>
                 <div className={styles.contentText}>
                   <strong>Users: </strong>
                   The general public
@@ -101,7 +107,7 @@ export default function Home() {
                       responsibility
                     </li>
                   </ul>
-                  {/* <br></br> */}
+                  <br></br>
                   <strong>Technologies Used: </strong>
                   <br></br>
                   React-Native, ReactJS, NodeJS, ExpressJS, Git, MongoDB,
