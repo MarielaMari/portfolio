@@ -1,7 +1,6 @@
 import React from "react";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import RotatingTextHello from "@/components/RotatingTextHello";
 import Footer from "@/components/Footer";
 import GlobeBackground from "@/components/GlobeBackground";
 import Image from "next/image";
@@ -16,17 +15,6 @@ export default function Home() {
         <div className={styles.globe}>
           <GlobeBackground />
         </div>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            height: "100vh",
-          }}
-        >
-          <RotatingTextHello />
-        </div>
-
         <div>
           <p className={styles.aboutMe}>
             <br /> <br /> Full Stack Developer,
