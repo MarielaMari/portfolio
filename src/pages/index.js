@@ -19,11 +19,13 @@ export default function Home() {
         <div className={styles.myName}>
           <RotatingTextHello />
         </div>
-        <p className={styles.aboutMe}>
-          <br /> <br /> Full Stack Developer,
-          <br />
-          based in Calgary
-        </p>
+        <div>
+          <p className={styles.aboutMe}>
+            <br /> <br /> Full Stack Developer,
+            <br />
+            based in Calgary
+          </p>
+        </div>
         <div className={styles.main}>
           <div className={styles.row}>
             <div className={styles.column}>
