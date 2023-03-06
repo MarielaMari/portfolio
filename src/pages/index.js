@@ -27,7 +27,7 @@ export default function Home() {
             <div className={styles.column}>
               <div className={styles.content}>
                 <h1>Latest Projects</h1>
-                <div className={styles.content}>
+                <br></br>
                   <Image
                     src="/p3-web-mobile-home-border.jpg"
                     alt="Mountains"
@@ -69,7 +69,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>
             <div className={styles.column}>
               <div className={styles.content}>
                 <Image
@@ -94,10 +93,9 @@ export default function Home() {
                       their communities
                     </li>
                     <li>
-                      {" "}
                       Helps local authorities identify and address safety
                       hazards more quickly
-                    </li>{" "}
+                    </li>
                     <li>
                       Encourages a sense of community involvement and
                       responsibility

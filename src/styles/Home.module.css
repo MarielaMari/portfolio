@@ -46,7 +46,7 @@
   height: 5vh;
   font-size: 2rem;
   color: #d2d1c8;
-  margin-top: 0%;
+  margin-top: 20%;
   z-index: 1;
 }
 
@@ -131,7 +131,7 @@
 } */
 
 .row {
-  margin: 190px 54px;
+  margin: 500px 50px;
 }
 
 /* Add padding BETWEEN each column (if you want) */
@@ -142,7 +142,7 @@
 
 /* Create four equal columns that floats next to each other */
 .column {
-  position: relative;
+  /* position: relative; */
   display: flex;
   float: inline-end;
   width: 70%;
@@ -161,11 +161,11 @@
   padding: 10px;
   text-align: center;
   font-family: sans-serif;
+  padding: 30px;
 }
 
 .contentText {
   text-align: justify;
-  font: bold;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
