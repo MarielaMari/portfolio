@@ -10,18 +10,13 @@ const socialMediaLinks = {
 class SocialMediaHandles extends Component {
   render() {
     return (
-    //   <div className={styles.containerSocialMedia}>
-          <div className={styles.column}>
-            {/* <ul className={styles.socialHandleList}>
-        <li className={styles.socialHandleItem}> */}
+            <div className={styles.rowSocialMedia}>
             <SocialIcon url={socialMediaLinks.linkedin} />
-            {/* </li> */}
-            {/* <li className={styles.socialHandleItem}> */}
+        
             <SocialIcon url={socialMediaLinks.gitHub} />
-            {/* </li>
-      </ul> */}
+       
           </div>
-    //   </div>
+    
     );
   }
 }

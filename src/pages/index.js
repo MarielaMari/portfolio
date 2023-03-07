@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from 'react-dom';
+import ReactDOM from "react-dom";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Footer from "@/components/Footer";
@@ -17,14 +17,14 @@ export default function Home() {
         <div className={styles.globe}>
           <GlobeBackground />
         </div>
-        <div>
+        <div className={styles.contentContainer}>
           <p className={styles.aboutMe}>
             <br /> <br />
             Full Stack Developer,
             <br />
             based in Calgary
           </p>
-          <div className={styles.rowSocialMedia}>
+          <div>
             <SocialIcons />
           </div>
         </div>

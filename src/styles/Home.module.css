@@ -157,34 +157,21 @@
     width: 100%;
   }
 }
-.socialHandleList {
-  /* list-style: none; */
+
+.contentContainer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
 }
 
-.socialHandleItem {
-  margin: -280px;
-  /* background-color: red; */
-}
-/* .containerSocialMedia {
-  position: relative;
-  display: flex;
-  background-color: #f1f1f1;
-  max-width: 1000px;
-  margin: auto;
-  padding: 0;
-  z-index: 1;
-  align-content: center;
-  align-items: center;
-} */
 .rowSocialMedia {
-  background-color: aqua;
-  /* display: flex; */
-  margin: 100px;
-  /* align-content: center; */
-  /* align-items: center; */
-  padding: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5rem;
+  z-index: 2;
+  gap: 1rem; /*add horizontal space */
 }
 
 .a {
