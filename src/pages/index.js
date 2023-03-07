@@ -1,10 +1,12 @@
 import React from "react";
+import ReactDOM from 'react-dom';
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Footer from "@/components/Footer";
 import GlobeBackground from "@/components/GlobeBackground";
 import HaloBackground from "@/components/HaloBackground";
 import ProjectsContent from "@/components/ProjectsContent";
+import SocialIcons from "@/components/SocialIcons";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,8 +24,11 @@ export default function Home() {
             <br />
             based in Calgary
           </p>
+          <div className={styles.rowSocialMedia}>
+            <SocialIcons />
+          </div>
         </div>
-          <ProjectsContent />
+        <ProjectsContent />
         <div className={styles.vantaHaloContainer}>
           <div className={styles.halo}>
             <HaloBackground />
