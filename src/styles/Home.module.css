@@ -166,12 +166,20 @@
 }
 
 .rowSocialMedia {
+  /* background-color: #a19c66; */
+  height: 20vh;
   display: flex;
   text-align: center;
   justify-content: center;
   margin-top: 5rem;
-  z-index: 2;
+  z-index: 5;
   gap: 1rem; /*add horizontal space */
+  filter: saturate(200%); /*for the LinkedIn icon */
+  filter: brightness(70%); /*for the GitHub icon */
+}
+.reactSocialIcons {
+  width: 120px;
+  height: 120px;
 }
 
 .a {
