@@ -172,7 +172,7 @@
   text-align: center;
   justify-content: center;
   margin-top: 5rem;
-  z-index: 5;
+  z-index: 3;
   gap: 1rem; /*add horizontal space */
   filter: saturate(200%); /*for the LinkedIn icon */
   filter: brightness(70%); /*for the GitHub icon */
@@ -186,4 +186,51 @@
   align-items: center;
   content: center;
   align-content: center;
+}
+
+/*Mari Image*/
+
+.containerMariImage {
+  display: flex;
+  width: 15%;
+  z-index: 3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageMari {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlayMariImage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #c4c3b7;
+}
+
+.containerMariImage:hover .overlayMariImage {
+  opacity: 1;
+}
+
+.textMariImage {
+  color: #504250;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }

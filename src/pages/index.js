@@ -7,6 +7,7 @@ import GlobeBackground from "@/components/GlobeBackground";
 import HaloBackground from "@/components/HaloBackground";
 import ProjectsContent from "@/components/ProjectsContent";
 import SocialIcons from "@/components/SocialIcons";
+import MariImage from "@/components/MariImage";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,9 @@ export default function Home() {
           <GlobeBackground />
         </div>
         <div className={styles.contentContainer}>
+          <div>
+            <MariImage />
+          </div>
           <p className={styles.aboutMe}>
             <br /> <br />
             Full Stack Developer,
