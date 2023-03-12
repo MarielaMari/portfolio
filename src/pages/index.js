@@ -18,10 +18,10 @@ export default function Home() {
         <div className={styles.globe}>
           <GlobeBackground />
         </div>
+        <div>
+          <MariImage />
+        </div>
         <div className={styles.contentContainer}>
-          <div>
-            <MariImage />
-          </div>
           <p className={styles.aboutMe}>
             <br /> <br />
             Full Stack Developer,
