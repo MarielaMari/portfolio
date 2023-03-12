@@ -26,13 +26,13 @@ export default function MariImage() {
             }}
           >
             <Image
-              src="/javaScript.svg"
+              src="/JavaScript.svg"
               alt="Logo JavaScript"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 70,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -41,11 +41,11 @@ export default function MariImage() {
             <Image
               src="/reactJS.svg"
               alt="Logo ReactJS"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 70,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -54,11 +54,11 @@ export default function MariImage() {
             <Image
               src="/nextJS.svg"
               alt="Logo NextJS"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 70,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -67,11 +67,11 @@ export default function MariImage() {
             <Image
               src="/materialUI.svg"
               alt="Logo MaterialUI"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 70,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -80,11 +80,11 @@ export default function MariImage() {
             <Image
               src="/reactNative.svg"
               alt="Logo React Native"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 70,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -93,11 +93,11 @@ export default function MariImage() {
             <Image
               src="/css.svg"
               alt="Logo CSS"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 70,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -106,11 +106,11 @@ export default function MariImage() {
             <Image
               src="/html.svg"
               alt="Logo HTML"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 70,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -119,18 +119,18 @@ export default function MariImage() {
             <Image
               src="/nodejs.svg"
               alt="Logo NodeJS"
-              width={100}
-              height={100}
-              style={{ height: 70, width: 70 }}
+              width={50}
+              height={50}
+              style={{ height: 50, width: 50 }}
             />
             <Image
               src="/expressjs.svg"
               alt="Icon ExpressJS"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 90,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -139,11 +139,11 @@ export default function MariImage() {
             <Image
               src="/postman.svg"
               alt="Logo Postman"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 90,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -152,11 +152,11 @@ export default function MariImage() {
             <Image
               src="/MongoDBForesGreen.svg"
               alt="Logo MongoDB"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 90,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -165,11 +165,11 @@ export default function MariImage() {
             <Image
               src="/firebaseLogoBlack.svg"
               alt="Logo Firebase"
-              width={100}
-              height={100}
+              width={50}
+              height={50}
               style={{
-                height: 70,
-                width: 90,
+                height: 50,
+                width: 50,
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
