@@ -1,13 +1,5 @@
 import styles from "@/styles/Home.module.css";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// // import {
-//   faNode,
-//   faJs,
-//   faReact,
-//   faCss,
-//   faHtml,
-// } from "@fortawesome/free-brands-svg-icons";
 
 export default function MariImage() {
   return (
