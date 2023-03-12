@@ -20,9 +20,9 @@ export default function HaloBackground() {
           baseColor: 0xb6aa20,
           backgroundColor: 0x504250,
           amplitudeFactor: 0.9,
-          xOffset: 0,
-          yOffset: 0.15,
-          size: 2,
+          xOffset: 0.05,
+          yOffset: -0.4,
+          size: 0.1,
         })
       );
     }
