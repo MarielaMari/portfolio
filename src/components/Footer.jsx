@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <p>Mariela Mihilova /Mari/ Copyright &copy; {today.getFullYear()}</p>
+      <p>Mariela Mihilova /Mari/ * Copyright &copy; {today.getFullYear()}</p>
     </footer>
   );
 };
