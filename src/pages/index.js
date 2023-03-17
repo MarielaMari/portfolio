@@ -18,6 +18,9 @@ export default function Home() {
         <div className={styles.globe}>
           <GlobeBackground />
         </div>
+        <div className={styles.hi}>
+          <p className={styles.hiText}>Hi, I am Mari!</p>
+        </div>
         <div>
           <MariImage />
         </div>
@@ -27,6 +30,7 @@ export default function Home() {
             Full Stack Developer,
             <br />
             based in Calgary
+            <br /> <br />
           </p>
           <div>
             <SocialIcons />
