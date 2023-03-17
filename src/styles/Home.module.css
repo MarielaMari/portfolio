@@ -37,7 +37,16 @@
 } */
 
 /* Styles for the aboutMe paragraph */
-
+.hi {
+  display: flex;
+  margin-top: 1%;
+}
+.hiText {
+  text-align: center;
+  color: #a19c66;
+  font-size: 3em;
+  margin-top: 5%;
+}
 .aboutMe {
   display: flex;
   justify-content: center;
@@ -46,7 +55,7 @@
   height: 5vh;
   font-size: 2rem;
   color: #a19c66;
-  margin-top: 0%;
+  margin-top: 0.5%;
   z-index: 1;
 }
 
@@ -162,7 +171,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 0rem;
 }
 
 .rowSocialMedia {
@@ -196,7 +205,7 @@
   z-index: 3;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 .imageMari {
