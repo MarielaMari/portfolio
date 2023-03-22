@@ -19,9 +19,10 @@ export default function MariImage() {
               display: "flex",
               flexWrap: "wrap",
               justifyContent: "center",
-              gap: "20px",
+              gap: "0.8vw",
+              marginBottom: "2vw",
               width: "100%",
-              maxWidth: "600px",
+              maxWidth: "800vw",
               margin: "0 auto",
             }}
           >
