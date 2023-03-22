@@ -44,7 +44,7 @@
 .hiText {
   text-align: center;
   color: #a19c66;
-  font-size: 3em;
+  font-size: 3vw;
   margin-top: 5%;
 }
 .aboutMe {
@@ -52,8 +52,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 5vh;
-  font-size: 2rem;
+  height: auto;
+  font-size: 2vw; /*vw = viewpoint width, to make it responsive*/
   color: #a19c66;
   margin-top: 0.5%;
   z-index: 1;
