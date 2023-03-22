@@ -28,11 +28,11 @@ export default function MariImage() {
             <Image
               src="/JavaScript.svg"
               alt="Logo JavaScript"
-              width={50}
-              height={50}
+              width={70}
+              height={70}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -44,8 +44,8 @@ export default function MariImage() {
               width={50}
               height={50}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -57,8 +57,8 @@ export default function MariImage() {
               width={50}
               height={50}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -70,8 +70,8 @@ export default function MariImage() {
               width={50}
               height={50}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -83,8 +83,8 @@ export default function MariImage() {
               width={50}
               height={50}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -96,8 +96,8 @@ export default function MariImage() {
               width={50}
               height={50}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -109,8 +109,8 @@ export default function MariImage() {
               width={50}
               height={50}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -121,7 +121,7 @@ export default function MariImage() {
               alt="Logo NodeJS"
               width={50}
               height={50}
-              style={{ height: 50, width: 50 }}
+              style={{ height: "4vw", width: "4vw" }}
             />
             <Image
               src="/expressjs.svg"
@@ -129,8 +129,8 @@ export default function MariImage() {
               width={50}
               height={50}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -142,8 +142,8 @@ export default function MariImage() {
               width={50}
               height={50}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -155,8 +155,8 @@ export default function MariImage() {
               width={50}
               height={50}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
@@ -168,8 +168,8 @@ export default function MariImage() {
               width={50}
               height={50}
               style={{
-                height: 50,
-                width: 50,
+                height: "4vw",
+                width: "4vw",
                 border: "solid",
                 borderColor: "black",
                 borderRadius: 10,
