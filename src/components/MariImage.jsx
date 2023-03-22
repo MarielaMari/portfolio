@@ -20,7 +20,7 @@ export default function MariImage() {
               flexWrap: "wrap",
               justifyContent: "center",
               gap: "0.8vw",
-              marginBottom: "2vw",
+              marginBottom: "4vw",
               width: "100%",
               maxWidth: "800vw",
               margin: "0 auto",
